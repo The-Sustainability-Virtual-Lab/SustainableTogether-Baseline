@@ -38,7 +38,9 @@ is *this particular* thing.
 
 ## The map
 
-![Overview of the model](Views/HomePVSystemModel__Index.svg)
+![Overview of the model](Views/png/HomePVSystemModel__Index.png)
+
+[🔍 Open full size](Views/png/HomePVSystemModel__Index.png?raw=true) · [vector SVG](Views/HomePVSystemModel__Index.svg)
 
 This is the model's front page. Each tile is one chapter. The walkthrough
 follows them in the order the system was designed:
@@ -54,7 +56,9 @@ follows them in the order the system was designed:
 
 ## Step 1: The problem and who cares about it
 
-![Problem statement and stakeholder needs](Views/HPVS-ProblemSpace__Problem_Statement.svg)
+![Problem statement and stakeholder needs](Views/png/HPVS-ProblemSpace__Problem_Statement.png)
+
+[🔍 Open full size](Views/png/HPVS-ProblemSpace__Problem_Statement.png?raw=true) · [vector SVG](Views/HPVS-ProblemSpace__Problem_Statement.svg)
 
 **The box at the top** is the problem the system has to solve:
 electricity keeps getting more expensive, it doesn't come from clean
@@ -83,7 +87,9 @@ devices.
 
 ## Step 2: The system in its surroundings
 
-![System context](Views/systemContext__System_Context.svg)
+![System context](Views/png/systemContext__System_Context.png)
+
+[🔍 Open full size](Views/png/systemContext__System_Context.png?raw=true) · [vector SVG](Views/systemContext__System_Context.svg)
 
 The **system in the middle** is the solar power system, still seen as a
 closed box. Around it is everything it deals with:
@@ -113,7 +119,9 @@ travels on). Only the wires have a connection to the system.
 
 ## Step 3: What the system is used for
 
-![Use cases](Views/HPVS-UseCases__UseCases.svg)
+![Use cases](Views/png/HPVS-UseCases__UseCases.png)
+
+[🔍 Open full size](Views/png/HPVS-UseCases__UseCases.png?raw=true) · [vector SVG](Views/HPVS-UseCases__UseCases.svg)
 
 A **use case** is one reason someone uses the system. There are five:
 
@@ -137,7 +145,9 @@ The first three use cases are worked out in detail. Each diagram shows
 
 ### 4a: Supplying the household
 
-![Supply the household with electricity](Views/supply_the_household_with_electricity__supply_the_household_with_electricityView.svg)
+![Supply the household with electricity](Views/png/supply_the_household_with_electricity__supply_the_household_with_electricityView.png)
+
+[🔍 Open full size](Views/png/supply_the_household_with_electricity__supply_the_household_with_electricityView.png?raw=true) · [vector SVG](Views/supply_the_household_with_electricity__supply_the_household_with_electricityView.svg)
 
 Read it from left to right:
 
@@ -163,7 +173,9 @@ Read it from left to right:
 
 ### 4b: Providing electricity to the grid
 
-![Provide electricity to the grid](Views/provide_electricity_to_the_grid__provide_electricity_to_the_gridView.svg)
+![Provide electricity to the grid](Views/png/provide_electricity_to_the_grid__provide_electricity_to_the_gridView.png)
+
+[🔍 Open full size](Views/png/provide_electricity_to_the_grid__provide_electricity_to_the_gridView.png?raw=true) · [vector SVG](Views/provide_electricity_to_the_grid__provide_electricity_to_the_gridView.svg)
 
 It's the same chain, with one addition on the right: **disconnect from
 grid**. The brain can order the system to separate itself from the grid,
@@ -173,7 +185,9 @@ disconnecting* (a switch). A decision on its own switches nothing.
 
 ### 4c: Monitoring performance
 
-![Monitor system performance](Views/monitor_system_performance__monitor_system_performanceView.svg)
+![Monitor system performance](Views/png/monitor_system_performance__monitor_system_performanceView.png)
+
+[🔍 Open full size](Views/png/monitor_system_performance__monitor_system_performanceView.png?raw=true) · [vector SVG](Views/monitor_system_performance__monitor_system_performanceView.svg)
 
 ```
  grid reading ─► monitor ─► record ─► history ─┐
@@ -188,7 +202,9 @@ the current figures and the history when the homeowner asks.
 
 ## Step 5: All functions in one tree
 
-![Functional breakdown](Views/HPVS-FunctionalBreakdown__FunctionalBreakdown.svg)
+![Functional breakdown](Views/png/HPVS-FunctionalBreakdown__FunctionalBreakdown.png)
+
+[🔍 Open full size](Views/png/HPVS-FunctionalBreakdown__FunctionalBreakdown.png?raw=true) · [vector SVG](Views/HPVS-FunctionalBreakdown__FunctionalBreakdown.svg)
 
 The activities from Step 4 are collected into three groups:
 
@@ -210,7 +226,9 @@ case.
 
 ## Step 6: Who does what (functional architecture)
 
-![Functional architecture](Views/homePVSystem__homePVSystemView_1.svg)
+![Functional architecture](Views/png/homePVSystem__homePVSystemView_1.png)
+
+[🔍 Open full size](Views/png/homePVSystem__homePVSystemView_1.png?raw=true) · [vector SVG](Views/homePVSystem__homePVSystemView_1.svg)
 
 Now the functions are handed to **responsible blocks**. Each block is
 named after the work it does, not after a product:
@@ -236,7 +254,9 @@ context in Step 2, so the two diagrams have to match.
 
 ## Step 7: Technical principles (logical architecture)
 
-![Logical architecture](Views/homePVSystem__LogicalArchitecture.svg)
+![Logical architecture](Views/png/homePVSystem__LogicalArchitecture.png)
+
+[🔍 Open full size](Views/png/homePVSystem__LogicalArchitecture.png?raw=true) · [vector SVG](Views/homePVSystem__LogicalArchitecture.svg)
 
 Each block from Step 6 now becomes a **technical solution principle**,
 still without choosing a product:
@@ -260,7 +280,9 @@ product* does it.
 
 ## Step 8: How it behaves over time
 
-![State machines](Views/homePVSystem__State_Machine.svg)
+![State machines](Views/png/homePVSystem__State_Machine.png)
+
+[🔍 Open full size](Views/png/homePVSystem__State_Machine.png?raw=true) · [vector SVG](Views/homePVSystem__State_Machine.svg)
 
 This diagram turns the logical architecture into a small **simulation**
 you can run, to see the parts working together. Each pink box is a
@@ -283,7 +305,9 @@ makes it switch:
 The numbers in this simulation are simplified teaching values, not data
 from a real system.
 
-![Simulation parameters](Views/HomePVSystem-LA__HomePVSystem-LAView.svg)
+![Simulation parameters](Views/png/HomePVSystem-LA__HomePVSystem-LAView.png)
+
+[🔍 Open full size](Views/png/HomePVSystem-LA__HomePVSystem-LAView.png?raw=true) · [vector SVG](Views/HomePVSystem-LA__HomePVSystem-LAView.svg)
 
 This small diagram lists the values the simulation uses: the panel area,
 the efficiency, the household load, and the range the sunlight moves in.
@@ -292,7 +316,9 @@ the efficiency, the household load, and the range the sunlight moves in.
 
 ## Step 9: The real devices (physical architecture)
 
-![Physical architecture](Views/HPVS-PhysicalArchitecture__PhysicalArchitecture.svg)
+![Physical architecture](Views/png/HPVS-PhysicalArchitecture__PhysicalArchitecture.png)
+
+[🔍 Open full size](Views/png/HPVS-PhysicalArchitecture__PhysicalArchitecture.png?raw=true) · [vector SVG](Views/HPVS-PhysicalArchitecture__PhysicalArchitecture.svg)
 
 This is what you would actually see installed in the house:
 
@@ -333,7 +359,7 @@ This is what you would actually see installed in the house:
   hardware.
 
 A second version of this diagram,
-[`homePVSystem__homePVSystemView.svg`](Views/homePVSystem__homePVSystemView.svg),
+[`homePVSystem__homePVSystemView.svg`](Views/png/homePVSystem__homePVSystemView.png?raw=true),
 also shows six unconnected boxes at the bottom (`pvGenerationSystem`,
 `energyStorageSystem`, …). These are the first rough outline of the
 system from the start of the project. In this version they are not yet
@@ -343,7 +369,9 @@ replaced by the real devices, so they appear as leftovers.
 
 ## Step 10: From principle to device
 
-![Logical to physical mapping](Views/HomePVSystemProject__Logical_to_Physical_Mapping.svg)
+![Logical to physical mapping](Views/png/HomePVSystemProject__Logical_to_Physical_Mapping.png)
+
+[🔍 Open full size](Views/png/HomePVSystemProject__Logical_to_Physical_Mapping.png?raw=true) · [vector SVG](Views/HomePVSystemProject__Logical_to_Physical_Mapping.svg)
 
 Each arrow «allocate» says: *this technical principle is realized by
 that device*. The three arrows meeting at the **energy hub** show the
@@ -354,7 +382,9 @@ arrow, so no device exists without a reason.
 
 ## Step 11: Are the requirements met?
 
-![Requirement satisfaction](Views/HPVS-PhysicalArchitecture__physicalArchitectureDiagram.svg)
+![Requirement satisfaction](Views/png/HPVS-PhysicalArchitecture__physicalArchitectureDiagram.png)
+
+[🔍 Open full size](Views/png/HPVS-PhysicalArchitecture__physicalArchitectureDiagram.png?raw=true) · [vector SVG](Views/HPVS-PhysicalArchitecture__physicalArchitectureDiagram.svg)
 
 The green box in the middle is the finished physical system. Each
 «satisfy» line points to a **requirement** (pink boxes) the system meets.
